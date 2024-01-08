@@ -1,6 +1,7 @@
 # Insurance Cross-Selling
-This project aims to predict customer interest in vehicle insurance based on features such as age, gender, vehicle damage, and others.  
+This project aims to predict customer interest in vehicle insurance based on features such as age, gender, vehicle damage, and others.
 The results could then be used by the Sales Team to approach customers that higher probability of being interested in a vehicle insurance.  
+
 The project involves data analysis, feature engineering, and model training.
 
 ## Data Source
@@ -8,9 +9,8 @@ The data comes an anonymized insurance company and represents customer data from
 The data can be found on [Kaggle](https://www.kaggle.com/datasets/anmolkumar/health-insurance-cross-sell-prediction).
 
 ## Limitations
-* Imbalanced data: The are significantly more non-interested customers than interested ones. The imbalance ratio is of about 7, meaning ...   
-that there are 7 times as many instances in the majority class as there are in the minority class.
-* Lack of customer diversity: All customers have not been with the company for more than 1 year. 
+* **Imbalanced data**: The are significantly more non-interested customers than interested ones. The imbalance ratio is of about 7, meaning that there are 7 times as many instances in the majority class as there are in the minority class.
+* **Lack of customer diversity**: All customers have not been with the company for more than 1 year. 
 That saying, their level of loyalty is probably not high enough to even think of cross-selling a new insurance type.
 
 ## Requirements
@@ -73,6 +73,5 @@ See here the classification reports:
 Note, due to the imbalanced data, the model is not confident in its evaluation, with the prediction thresholds not going over 0.6.
 
 ## Future Considerations
-In my opinion, the predictions are premature. Many customers haven't been with the client for a sufficient duration to establish loyalty.  
+In my opinion, the predictions are premature. Many customers haven't been with the client for a sufficient duration to establish loyalty.
 It would be more sensible to make predictions after amassing customers for a minimum of two years.
-
